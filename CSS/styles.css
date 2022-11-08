@@ -19,7 +19,7 @@
     background-color: #DDEDE4;
 }
 
-.cardcolumn {
+.homecardcolumn {
     display: flex;
     justify-content: space-around;
 }
@@ -64,3 +64,29 @@
 .bg-dark {
     background-color: #353736;
 }
+
+
+.top10cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.top10cardcolumn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+
+.top10column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top10header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+
