@@ -47,9 +47,12 @@
     text-align: center;
 }
 
-.btn-primary {
-    background-color: #FAFBDB;
-    color: black;
+.btn-bd-primary {
+    --bs-btn-color: black;
+    --bs-btn-hover-color: black;
+    --bs-btn-bg: #FAFBDB;
+    --bs-btn-hover-bg: #eff1cd;
+    --bs-btn-active-bg: #FAFBDB;
 }
 
 .card-img {
