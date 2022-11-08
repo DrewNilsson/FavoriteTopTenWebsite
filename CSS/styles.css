@@ -1,0 +1,16 @@
+.homelogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.logo {
+    width: 80%;
+    height: auto;
+}
+
+.homecards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
