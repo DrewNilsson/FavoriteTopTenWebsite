@@ -15,6 +15,10 @@
     margin-top: 5%;
 }
 
+.card {
+    background-color: #DDEDE4;
+}
+
 .cardcolumn {
     display: flex;
     justify-content: space-around;
@@ -41,4 +45,19 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+}
+
+.btn-primary {
+    background-color: #FAFBDB;
+    color: black;
+}
+
+.card-img {
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.bg-dark {
+    background-color: #353736;
 }
