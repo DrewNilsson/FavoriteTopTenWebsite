@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    height: fit-content;
 }
 
 .card-body {
@@ -58,6 +59,8 @@
     --bs-btn-hover-bg: #eff1cd;
     --bs-btn-active-bg: #FAFBDB;
     font-weight: bold;
+    width: 60%;
+    border-radius: 15px;
 }
 
 .card-img {
