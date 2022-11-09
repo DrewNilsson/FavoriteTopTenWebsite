@@ -9,15 +9,10 @@
     height: auto;
 }
 
-.container-fluid {
-    font-weight: bolder;
-}
-
 .homecards {
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    font-weight: bolder;
 }
 
 .card {
@@ -27,7 +22,6 @@
 .homecardcolumn {
     display: flex;
     justify-content: space-around;
-    font-weight: bolder;
 }
 
 .col-sm-5 {
@@ -53,13 +47,17 @@
     text-align: center;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
 .btn-bd-primary {
     --bs-btn-color: black;
     --bs-btn-hover-color: black;
     --bs-btn-bg: #FAFBDB;
     --bs-btn-hover-bg: #eff1cd;
     --bs-btn-active-bg: #FAFBDB;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .card-img {
@@ -97,10 +95,7 @@
     width: 20%;
 }
 
-.card-title {
-    font-weight: bolder;
-}
-
 body {
     font-family: 'Italiana', serif;
+    font-weight: bold;
 }
