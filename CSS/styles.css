@@ -75,6 +75,17 @@ body {
     border-radius: 15px;
 }
 
+.btn-bd-nav {
+    --bs-btn-color: white;
+    --bs-btn-hover-color: white;
+    --bs-btn-bg: #3D6C56;
+    --bs-btn-hover-bg: #2c4d3d;
+    --bs-btn-active-bg: #3D6C56;
+    font-weight: bold;
+    width: 10rem;
+    border-radius: 15px;
+}
+
 .card-img {
     padding: 5%;
 }
