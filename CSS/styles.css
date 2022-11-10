@@ -24,9 +24,10 @@ body {
 .card {
     background-color: #DDEDE4;
     width: 95%;
-    height: fit-content;
+    height: max-content;
     margin-left: 1%;
     margin-right: 1%;
+    min-height: 18rem;
 }
 
 .homecardcolumn {
@@ -49,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
     height: fit-content;
 }
 
@@ -57,7 +58,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    height: 3rem;
+    height: fit-content;
 }
 
 .card-title {
@@ -88,6 +89,8 @@ body {
 
 .card-img {
     padding: 5%;
+    /* height: fit-content;
+    width: fit-content; */
 }
 
 .bg-dark {
@@ -167,4 +170,14 @@ body {
   .btn-bd-nav:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.yt-video {
+    width: 80%;
+    height: 60%;
+    border-radius: 15px;
+}
+
+.no-gutters {
+    min-height: 18rem;
 }
